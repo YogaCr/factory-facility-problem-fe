@@ -13,7 +13,7 @@ const { facility } = storeToRefs(useFacilityStore())
       <p class="text-white text-xl mt-4 font-bold">Visualization</p>
       <div class="overflow-x-auto">
         <div class="flex flex-row bg-white p-2 items-end" style="width:fit-content">
-          <div class="bg-blue-500 flex items-center justify-center text-white font-bold text-lg" v-for="f,i in facility.bestSol" v-bind:key="i" :style="{'height':f*3+'rem','width':f*3+'rem', 'margin-right':facility.gap*3+'rem'}">{{ f }}</div>
+          <div class="bg-blue-500 flex items-center justify-center text-white font-bold text-lg" v-for="f,i in facility.bestSol" v-bind:key="i" :style="{'height':'3rem','width':f*2+'rem', 'margin-right':facility.gap*3+'rem'}">{{ f }}</div>
         </div>
       </div>
     </div>

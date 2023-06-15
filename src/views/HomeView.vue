@@ -5,7 +5,7 @@ import GAResult from '../components/GAResult.vue'
 </script>
 
 <template>
-  <main class="grid grid-cols-2 gap-4">
+  <main class="grid grid-cols-1 gap-4">
     <div>
       <FormField />
     </div>
